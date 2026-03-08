@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Book | 3Brothers</title>
+    <meta name="description"
+        content="Get in touch with 3Brothers for tutoring, babysitting, or pet care services. Request a booking today.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav">
+            <a href="index.html" class="logo">3<span>Brothers</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active-link">Contact</a>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h1>Get in Touch</h1>
+                        <p class="intro">Tell us what you need and we’ll reply within 24 hours.</p>
+
+                        <div class="info-blocks">
+                            <div class="info-block">
+                                <h4>Email Us</h4>
+                                <a href="mailto:hello@3brothers.com">hello@3brothers.com</a>
+                            </div>
+                            <div class="info-block">
+                                <h4>WhatsApp / Phone</h4>
+                                <p>+44 7000 000 000</p>
+                            </div>
+                            <div class="info-block">
+                                <h4>Service Area</h4>
+                                <p>Serving families in Wimbledon, Raynes Park, Putney, and Fulham.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container card">
+                        <form id="booking-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Your email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Optional for WhatsApp">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service...</option>
+                                    <option value="math-tutoring">Math Tutoring</option>
+                                    <option value="french-tutoring">French Tutoring</option>
+                                    <option value="babysitting">Babysitting</option>
+                                    <option value="pet-sitting">Pet Sitting</option>
+                                    <option value="other">Other / Multiple</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="timing">Preferred Dates/Times</label>
+                                <input type="text" id="timing" name="timing"
+                                    placeholder="e.g. Weeknights, Weekend mornings">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Tell us a bit more about what you're looking for..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>3Brothers</h4>
+                    <p>Serving families in South West London, from Wimbledon to Fulham.</p>
+                </div>
+                <!-- ... other footer sections ... -->
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <a href="mailto:hello@3brothers.com">hello@3brothers.com</a>
+                    <p>+44 7000 000 000</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 3Brothers Family Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
