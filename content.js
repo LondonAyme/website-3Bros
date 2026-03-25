@@ -1,5 +1,5 @@
 window.siteContent = {
-    "price_tutoring": "30",
+    "price_tutoring": "25",
     "price_babysitting": "15",
     "price_pet_care": "12",
     "testimonial_1_quote": "The brothers are incredibly reliable. My son's French grades improved significantly",
