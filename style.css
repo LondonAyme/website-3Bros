@@ -269,6 +269,16 @@ footer {
     margin-bottom: 10px;
 }
 
+.footer-section a.btn {
+    display: inline-block;
+    color: #000;
+    margin-top: 5px;
+}
+
+.footer-section a.btn:hover {
+    color: #000;
+}
+
 .footer-bottom {
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
